@@ -11,7 +11,7 @@ body {
   height: 100%;
 }
 
-h1, h2 {
+h1, h2, p {
   color: white;
 }
 
@@ -31,4 +31,15 @@ h1, h2 {
   justify-content: center;
   margin-left: 10%;
   width: 90%;
+}
+
+.TempExch input {
+  font-size: 24px;
+  width: 248px;
+  height: 36px;
+}
+
+.exchangeIcon {
+  width: 60px;
+  height: 100%;
 }
