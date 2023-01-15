@@ -43,3 +43,13 @@ h1, h2, p {
   width: 60px;
   height: 100%;
 }
+
+.cellPhoneUsage {
+  visibility: collapse;
+}
+
+@media screen and (max-width: 768px) {
+  .cellPhoneUsage{
+    visibility: visible;
+  }
+}
