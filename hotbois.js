@@ -21,10 +21,7 @@ fahrenheitInput.addEventListener("input", () => {
 //Measurement listeners
 centimeterInput.addEventListener("input", () => {
   var centimeterConversion = parseFloat(centimeterInput.value) / 30.48;
-  console.log(centimeterConversion);
   var stringToSplit = centimeterConversion.toString().split(".");
-  var test = parseFloat(("0." + stringToSplit[1])) * 12;
-  console.log(test.toFixed(3));
   if(centimeterConversion.toFixed(1) % 1 != 0) {
     var feetSplit = stringToSplit[0];
     var inchesSplit = parseFloat(("0." + stringToSplit[1])) * 12;
@@ -32,8 +29,6 @@ centimeterInput.addEventListener("input", () => {
     feetInput.value = feetSplit;
     inchesInput.value = inchesSplit.toFixed(1);
   }
-
-
 });
 
 feetInput.addEventListener("input", () => {
