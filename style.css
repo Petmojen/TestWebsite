@@ -27,6 +27,7 @@ h1, h2, p {
   height: 5%;
 }
 
+/* Tempature style */
 .TempExch {
   justify-content: center;
   margin-left: 10%;
@@ -44,10 +45,33 @@ h1, h2, p {
   height: 100%;
 }
 
+
+/* Measurement style */
+.HeightExch {
+  justify-content: center;;
+  margin-left: 10%;
+  width: 90%;
+}
+
+.HeightExch input {
+  font-size: 24px;
+}
+
+.HeightExch #centimeters {
+  width: 248px;
+  height: 36px;
+}
+
+.HeightExch #feet, #inches {
+  width: 124px;
+  height: 36px;
+}
+
 .cellPhoneUsage {
   visibility: collapse;
 }
 
+/* No cellphones! */
 @media screen and (max-width: 768px) {
   .cellPhoneUsage{
     visibility: visible;
