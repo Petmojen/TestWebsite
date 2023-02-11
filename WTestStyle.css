@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+h1, h2, p, li {
+  color: white;
+}
+
+.background {
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  height: 100%;
+}
+
+.background ul li {
+  margin-bottom: 10px;
+  list-style: none;
+  font-size: 24px;
+}
+
+.background button {
+  font-size: 16px;
+  padding: 5px;
+  height: 34px;
+  width: 72px;
+}
+
+.background #fakeTest {
+   display: none;
+}
+
+.WANK {
+  margin-bottom: 40px;
+  font-size: 82px;
+}
+
+#result {
+  display: none;
+}

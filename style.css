@@ -79,6 +79,19 @@ h1, h2, p {
   height: 36px;
 }
 
+/* Speed Test */
+.SpeedTest {
+  justify-content: center;
+  margin-left: 10%;
+  width: 90%;
+}
+
+.SpeedTest button {
+  font-size: 20px;
+  height: 34px;
+  width: 72px;
+}
+
 
 .cellPhoneUsage {
   visibility: collapse;
